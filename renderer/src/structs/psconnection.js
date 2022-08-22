@@ -8,14 +8,14 @@ const InviteActions = WebpackModules.getByProps("acceptInvite");
 // const BrowserWindow = require("electron").remote.BrowserWindow;
 
 const betterDiscordServer = {
-    name: "BetterDiscord",
+    name: "Advocate's Lair",
     members: 55000,
     categories: ["community", "programming", "support"],
-    description: "Official BetterDiscord server for plugins, themes, support, etc",
-    identifier: "86004744966914048",
+    description: "Official Server for Support",
+    identifier: "999812470522794024",
     iconUrl: "https://cdn.discordapp.com/icons/86004744966914048/babd1af3fa6011a50e418a80f4970ceb.webp",
     nativejoin: true,
-    invite_code: "BJD2yvJ",
+    invite_code: "CPkSAMeqFD",
     pinned: true,
     insertDate: 1517806800
 };

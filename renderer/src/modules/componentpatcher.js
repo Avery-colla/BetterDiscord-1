@@ -11,17 +11,20 @@ const React = DiscordModules.React;
 const Tooltip = WebpackModules.getByDisplayName("Tooltip");
 const Anchor = WebpackModules.getByDisplayName("Anchor");
 
+
+
+
+
 const Developers = [
-    /* Zerebos#7790 */
-    "249746236008169473",
+    /* DevilsAdvocate#6921 */
+    "696852868774363136"
     
-    /* Strencher#1044 */
-    "415849376598982656"
+ 
 ];
 
 const DeveloperBadge = function DeveloperBadge({type, size = 16}) {
-    return React.createElement(Tooltip, {color: "primary", position: "top", text: "BetterDiscord Developer"},
-        props => React.createElement(Anchor, Object.assign({className: `bd-${type}-badge`, href: "https://github.com/BetterDiscord/BetterDiscord", title: "BetterDiscord", target: "_blank"}, props),
+    return React.createElement(Tooltip, {color: "primary", position: "top", text: "Chief Executive Officer"},
+        props => React.createElement(Anchor, Object.assign({className: `bd-${type}-badge`, href: "https://github.com/BetterDiscord/BetterDiscord", title: "Vertuak", target: "_blank"}, props),
             React.createElement(BDLogo, {size, className: "bd-logo"})
         )
     );
